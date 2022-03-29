@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &955529385362756812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955529385362756814}
+  - component: {fileID: 955529385362756815}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &955529385362756814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955529385362756812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &955529385362756815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955529385362756812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 343e93ad341d6d7418beca9a581bc9ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logs:
+  - {fileID: 1982058245, guid: 7afe33c68a279e845b6632719c3c27c6, type: 3}
+  - {fileID: 1982058245, guid: 471cccfd82393874d8611645ce0c5fce, type: 3}
+  - {fileID: 1982058245, guid: 2eef791d22eec2940ad591740fc0049c, type: 3}
+  - {fileID: 1982058245, guid: babd08530169e954aa2e910eca0b9bbb, type: 3}
+  - {fileID: 1982058245, guid: 3ebf98323c84b354cb59101d60da73c4, type: 3}
+  - {fileID: 1982058245, guid: df8c5c532b03093488fe4bda44bbc8ef, type: 3}
+  - {fileID: 1982058245, guid: 6ee9aa883a14ea0459cf6ca7ac15f2c3, type: 3}
+  bosses:
+  - {fileID: 3174660550115703350, guid: 9a81d5a2193f0a94299141540af997bd, type: 3}
+  - {fileID: 6732806144948505339, guid: f06cae168c8887f4f9ef535d66e5c328, type: 3}
+  - {fileID: 4806946064281277961, guid: 2b8e5271925653a4fa1228a050380d9c, type: 3}
+  logSpawnPosition: {x: 0, y: 2}
+  kniveData: {fileID: 11400000, guid: 62dc7dd66c39fc64880987e7edea50b1, type: 2}
+  appearableKnivePrefab: {fileID: -8813502237126043776, guid: 4f45c8e86b57f974baca641d6b1132ad, type: 3}
+  knivePrefab: {fileID: 5539102119729746852, guid: 4b9a936f10dd926489e90464c13dfe25, type: 3}
+  numberOfKnives: 3
+  startPosition: {x: 0, y: -3.5}
+  waitTime: 0.8
+  applePrefab: {fileID: 547554450, guid: 1b3a6de52ee747a42b91eb1221f1bc40, type: 3}
+  appleData: {fileID: 11400000, guid: 369bdb19540db8b4fb21466484fed072, type: 2}
+  radius: 1
